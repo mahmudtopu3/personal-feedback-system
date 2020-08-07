@@ -22,3 +22,6 @@ Route::get('/check/messages', 'AdminController@index')->name('home');
 Route::get('/check/messages/{id}', 'AdminController@show')->name('show');
 Route::get('/','HomeController@showMessagesForm')->name('userpage');
 Route::post('/','HomeController@SubmitMessage')->name('form');
+Route::get('/comparisions-of-job-portals-in-bangladesh','PortalController@index')->name('jobportals');
+
+
