@@ -16,7 +16,8 @@ Route::get('/lg', function () {
 });
 
 Auth::routes();
-
+Route::get('/barcode', 'HomeController@barcode')->name('barcode');
+Route::post('/barcode', 'HomeController@barcodeSubmit')->name('barcodeSubmit');
 Route::get('/check/messages', 'AdminController@index')->name('home');
 Route::get('/check/messages/{id}', 'AdminController@show')->name('show');
 Route::get('/','HomeController@showMessagesForm')->name('userpage');

@@ -13,7 +13,7 @@
 <body>
 <div class="container contact-form">
             <div class="contact-image">
-                <img class="img img-circle img-responsive" src="{{ asset('img/user.png') }}" alt="rocket_contact"/>
+                <img class="img img-circle img-responsive" src="{{ asset('img/topu.jpg') }}" alt="rocket_contact"/>
             </div>
 
                    <br>
